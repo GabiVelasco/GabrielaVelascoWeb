@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+*, html, body {
+    width: 100%;
+    background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	cursor: wait;
+	
+}
+
+body{ 
+	width:100%;
+	background-color:rgba(255, 255, 255, 0);
+	max-width: 100%;
+	
+}
+
+
+header {
+	width: 100%;
+	padding-top: 20px;
+	padding-right:60px;
+	margin-top: 0;
+
+}
+
+footer {
+	width:100%;
+	margin-bottom: 0;
+	
+	position: absolute;
+	height: 200px;
+}
+
+
+nav { 
+	color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
+	width: 100%;
+	margin-top:0;
+	padding-top: 20px;
+	font-family:Montserrat Alternates;
+	text-align:right;
+	font-size:33px;
+	letter-spacing:15;
+    justify-content: space-between;
+	background-color: transparent;
+	position: absolute;
+}
+
+.nav { 
+	
+	padding-right:100px;
+	margin-top:0;
+	
+
+}
+
+nav a {
+    text-decoration: none;
+    color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
+    padding: 10px;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+
+.logo { 
+	
+	color:rgba(10.625000316649675, 10.005207974463701, 10.005207974463701, 1);
+	position:absolute;
+	left:92px;
+	top:50px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:15;
+	cursor:context-menu;
+}
+
+
+.kontakt { 
+	color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+	width:193px;
+	height:37px;
+	position:absolute;
+	left:80px;
+	bottom:15px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:15;
+	cursor:alias;
+	padding-bottom: 20px;
+	
+}
+.kontakt a{
+
+	text-decoration: none;
+	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
+}
+
+.kontakt a:hover{
+
+	text-decoration: underline;
+	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
+}
+
+
+.socialmedia{ 
+	color:rgba(10.625000316649675, 10.005207974463701, 10.005207974463701, 1);
+	width:159px;
+	height:24px;
+	position:absolute;
+	right:6px;
+	bottom:10%;
+	padding-bottom: 10px;
+	font-family: Montserrat Alternates;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:15;
+	padding-right: 150px;
+}
+
+/* Social Media Icons Styling */
+ .social-icons {
+    z-index: 4000;
+	display: flex;
+	align-items: center;
+   
+}
+
+.social-icons a {
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Spacing between icons */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color:purple; /* Color on hover */
+}
+
+.container {
+	display:flex;
+	padding-top: 100px;
+	bottom: 200px;
+	height: 800px;
+	width: 100%;
+}
+
+
+/* sectionleft properties */
+
+.section-left{ 
+	/* background-color:rgba(68.00000354647636, 68.00000354647636, 68.00000354647636, 0.029999999329447746); */
+	width:50%;
+	height:657px;
+	position:absolute;
+	left:75px;
+	top:100px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+    border:1px solid rgb(213, 85, 175);	
+}
+
+.zitate { 
+	color:rgba(0, 0, 0, 1);
+	width:404px;
+	height:90px;
+	position:absolute;
+	left:200px;
+	top:180px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:45px;
+	letter-spacing:15;
+    font-style:italic;
+    filter: blur(1.6px);
+	transition: filter 0.5s ease-out; /* Transition for blur effect */
+}
+
+.zitate:hover {
+	filter: blur(0); /* Remove blur on hover */
+}
+
+.wilkommen { 
+	color:rgba(0, 0, 0, 1);
+	width:256px;
+	height:43px;
+	position:absolute;
+	left:60px;
+	top:64px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:35px;
+	letter-spacing:15;
+	animation: grow 1.5s ease-out;
+	animation-delay: 1s;
+}
+
+
+#box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 200px;
+	color: white;
+	font-family: 'Raleway';
+	font-size: 2.5rem;
+  }
+  .gradient-border {
+	--borderWidth: 3px;
+	/* background: #1D1F20; */
+	position: relative;
+	border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+	content: '';
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s ease alternate infinite;
+	background-size: 300% 300%;
+  }
+
+    
+  @keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* sectionleft properties ENDE */
+
+/* sectionright properties */
+
+  .section-right { 
+	color:rgba(255, 255, 255, 1);
+	width:40%;
+	height:657px;
+	position:absolute;
+	right:10px;
+	top:180px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:35px;
+	letter-spacing:15;
+	transition: transform 1.6s cubic-bezier(0.42, 0, 0.58, 1), color 0.4s ease; /* Slower and smoother transition */
+	animation-delay: 1.2s;
+}
+.section-right p:hover {
+	transform: translateY(-10px); /* Move the element 8px upwards on hover */
+	color: #0066cc; /* Change color on hover for additional visual effect */
+	box-shadow:white 0 1px;
+	animation-delay: 1.2s;
+}
+
+
+.effect1 {
+	animation: grow 1s ease-out;
+	animation-delay: 0.2s;
+
+}
+.effect2 {
+	animation: grow 1s ease-out;
+	animation-delay: 0.4s;
+
+}
+.effect3 {
+	animation: grow 1s ease-out;
+	animation-delay: 0.6s;
+
+}
+.effect4 {
+	animation: grow 1s ease-out;
+	animation-delay: 0.8s;
+
+}
+.effect5 {
+	animation: grow 1s ease-out;
+	animation-delay: 1s;
+
+}
+
+
+@keyframes grow {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+}
+
+/* sectionright properties ENDE */
+
+
+
+span {
+	padding:5px;
+}
+p { padding: 2px;}
