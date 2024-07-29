@@ -16,8 +16,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // About content
     const aboutContent = `
-        <h2>Erfahrungen</h2>
-        <p>Hier sind meine Erfahrungen aufgelistet...</p>
+    <p style=padding-top:5px; padding-bottom: 5px;><br><br>
+      
+        - Angular<br>
+        - TypeScript<br>
+        - HTML<br>
+        - CSS<br>
+        - JavaScript<br>
+        - Firebase<br>
+        - Firestore<br>
+        - Python<br>
+        - React<br>
+        - PHP<br>
+       
+    </p>
     `;
 
     // Work content
@@ -65,3 +77,35 @@ document.addEventListener('DOMContentLoaded', function() {
         zitate.style.display = 'block';
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to update zitate content
+    function updateZitate(content) {
+        document.getElementById('zitate').innerHTML = content;
+    }
+
+    // Event listeners for navigation links
+    document.getElementById('logo-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        updateZitate('<br><br>Als Webentwicklerin <br>tanze ich mit dem Code, <br>um die digitale Welt zu verschönern.');
+    });
+
+    document.getElementById('work-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        updateZitate('<br><br>Mission - Die Integration von Tanz und Technologie');
+    });
+
+    document.getElementById('about-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        updateZitate('<br><br>Mehr über mich');
+    });
+
+    document.getElementById('kontakt-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        updateZitate('<br><br>Kontakt');
+    });
+
+    // Set default content for initial page load
+    updateZitate('<br><br>Als Webentwicklerin <br>tanze ich mit dem Code, <br>um die digitale Welt zu verschönern.');
+});
+
