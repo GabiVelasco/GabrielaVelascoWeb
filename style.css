@@ -9,7 +9,7 @@
 		margin: 0px;
 		height: auto;
 		width: 100%;
-		background-color:rgba(77, 56, 183, 0.4);
+		background-color:rgba(77, 56, 183, 0.248);
 		padding:0;
 	 }
 	 
@@ -27,7 +27,7 @@ html {
 	height: auto;
 
 	width: 100%;
-	background-color:rgba(77, 56, 183, 0.4);
+	background-color:rgba(77, 56, 183, 0.256);
 	position: relative;
  }
  
@@ -234,11 +234,10 @@ margin-top:-10px;
 }
 
 .wilkommen { 
-	color:rgba(0, 0, 0, 1);
+	color:white;
 	width:256px;
 	height:43px;
-	position:absolute;
-	left:60px;
+	position: relative;	left:60px;
 	top:64px;
 	font-family:Montserrat Alternates;
 	text-align:left;
