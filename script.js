@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p>Sie erreichen mich über die Social Media Links oder via 
             <a href="mailto:gabriela.luppe@gmail.com">E-Mail.</a>
         </p>`;
-    const logoContent = '<h2>Willkommen!</h2><p>Ich bin Gabriela Velasco, Webentwicklerin.</p>';
+    const logoContent = 'Gabriela Velasco - Webentwicklerin</span><br><br>Als Webentwicklerin <br>tanze ich mit dem Code, <br>um die digitale Welt zu verschönern.</span>';
 
     const aboutZitate = "Über mich.";
     const workZitate = "Meine Arbeit.";
